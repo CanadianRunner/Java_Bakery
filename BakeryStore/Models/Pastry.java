@@ -1,22 +1,24 @@
 package BakeryStore.Models;
 
 public class Pastry {
-    private int totalCost;
-    private int quantity;
+    private int pastryQuantity;
 
-    public Pastry(int quantity, int totalCost) {
-        this.totalCost = totalCost;
-        this.quantity = quantity;
+    public Pastry(int pastryQuantity) {
+        this.pastryQuantity = pastryQuantity;
     }
 
+    public int getTotalCost() {
+        return calculateTotalCost();
+    }
+  
     public int calculateTotalCost() {
-        if (quantity > 2) {
-            int remainder = quantity % 3;
-            totalCost = (((quantity - remainder) / 3) * 5) + (remainder * 2);
-            return totalCost;
-        } else {
-            totalCost = quantity * 2;
-            return totalCost;
-        }
+        int totalCost;
+        int numberOfDeals = pastryQuantity / 3;
+        int numberOfRemainders = pastryQuantity % 3;
+        int priceOfDeals = numberOfDeals * 5;
+        int priceOfRemainders = numberOfRemainders * 2;
+        totalCost = priceOfDeals + priceOfRemainders;
+        return totalCost;
     }
 }
+
