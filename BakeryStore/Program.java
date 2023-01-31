@@ -1,6 +1,7 @@
 //To start the program please enter this command: "java -classpath . Program"  
 //Please make the terminal larger to account for the ACII art
-//Then follow the prompts
+//Then follow the prompts to calculate your order.
+//Code is commmented out in Journal Entry
 
 import BakeryStore.Models.Bread;
 import BakeryStore.Models.Pastry;
@@ -31,8 +32,6 @@ public class Main {
     String breadDeal = "buy two get one free!";
     String pastryDeal = "One Pastry for $2. Or 3 pastries for $5!";
     String couponCode = "PIERRESBAKERYCOUPON1234";
-
-    System.out.println(title);
     System.out.println(
       "We're excited for you try our delicious Breads and Pastries!"
     );

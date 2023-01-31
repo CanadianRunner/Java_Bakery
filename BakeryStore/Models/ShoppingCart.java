@@ -19,3 +19,4 @@ public class ShoppingCart {
         totalCost = customerBreadOrder.getTotalCost() + customerPastryOrder.calculateTotalCost();
     }
 }
+
