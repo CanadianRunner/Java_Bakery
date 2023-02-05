@@ -11,7 +11,7 @@
 * Java
 
 ## Description
-_This is a project I created for CS1101 that allows the user to a customer to shop at Sean's Bakery. The customer is presented with the starting prices of Sean's baked goods and waits for user input. The customer then is greeted by Pierres current promotions and a query for how many loafs of bread they want. They user can then input how many pastries they would like. Finally the customer receives an output of the order total and a coupon code. Developing this application helped grow my understanding of Java and Test Driven Development._
+_This is a project I created for CS1101 that allows a customer to shop at Sean's Bakery. The customer is presented with the starting prices of Sean's baked goods and waits for user input. The customer then is greeted by Pierres current promotions and a query for how many loafs of bread they want. They user can then input how many pastries they would like. Finally the customer receives an output of the order total and a coupon code. Developing this application helped grow my understanding of Java and Test Driven Development._
 
 
 ## Setup/Installation Requirements
